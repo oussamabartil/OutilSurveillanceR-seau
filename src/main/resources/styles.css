@@ -1,0 +1,69 @@
+.button-ui {
+    -fx-background-color: transparent;
+    -fx-border-radius: 16px;
+    -fx-background-radius: 16px;
+    -fx-cursor: hand;
+}
+
+.button-ui:hover {
+    transition: -fx-background-color 0.5s ease;
+    -fx-background-color: #00000010;
+}
+
+.button-is-selected {
+    -fx-background-color: #0000001a;
+}
+
+.button-window {
+    -fx-background-color:  #0000001a;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-text-fill: gray;
+    -fx-cursor: hand;
+}
+
+.button-window:hover {
+    -fx-background-color:  #00000026;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-text-fill: gray;
+    -fx-cursor: hand;
+    transition: -fx-background-color 0.5s ease;
+}
+
+.view-1-wifi-name {
+}
+
+.view-1-small-label {
+}
+
+.view-1-small-label-value-colored {
+    -fx-text-fill: #2462FF;
+}
+.view-1-small-label-value-gray {
+    -fx-text-fill: #666666;
+}
+
+.button-medium {
+    -fx-pref-width: 120px;
+    -fx-pref-height: 40px;
+    -fx-background-radius: 50px;
+    -fx-border-radius: 50px;
+    -fx-cursor: hand;
+    -fx-font-size: 14px;
+    -fx-text-fill: #2462FF;
+    -fx-border-color: #2462FF0A;
+}
+.is-gray {
+    -fx-text-fill: #666666;
+}
+
+.is-primary {
+    -fx-text-fill: #2462FF;
+    -fx-border-color: #2462FF0A;
+}
+
+.is-alert {
+    -fx-text-fill: #FF3131;
+    -fx-border-color: #FF31310A;
+}
